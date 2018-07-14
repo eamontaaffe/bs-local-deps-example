@@ -2,8 +2,9 @@ open Jest;
 open Expect;
 
 describe("First", () => {
-  test("hello", () =>
-    expect(hello)
+  /* This breaks the compiler */
+  test("hello!!!", () =>
+    expect(First.hello)
     |> toEqual("Hello World!")
   );
 });
