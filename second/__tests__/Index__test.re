@@ -1,7 +1,7 @@
 open Jest;
 open Expect;
 
-describe("bs-anon", () => {
+describe("First", () => {
   test("hello", () =>
     expect(First.hello)
     |> toEqual("Hello world!")
