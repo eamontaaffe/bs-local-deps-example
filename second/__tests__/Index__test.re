@@ -3,7 +3,7 @@ open Expect;
 
 describe("First", () => {
   test("hello", () =>
-    expect(First.hello)
-    |> toEqual("Hello world!")
+    expect(hello)
+    |> toEqual("Hello World!")
   );
 });
